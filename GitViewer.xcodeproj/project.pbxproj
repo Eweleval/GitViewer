@@ -9,21 +9,60 @@
 /* Begin PBXBuildFile section */
 		B49B5350291CE8AD00287880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B534F291CE8AD00287880 /* AppDelegate.swift */; };
 		B49B5352291CE8AD00287880 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B5351291CE8AD00287880 /* SceneDelegate.swift */; };
-		B49B5354291CE8AD00287880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B5353291CE8AD00287880 /* ViewController.swift */; };
-		B49B5357291CE8AD00287880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49B5355291CE8AD00287880 /* Main.storyboard */; };
 		B49B5359291CE8AF00287880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49B5358291CE8AF00287880 /* Assets.xcassets */; };
 		B49B535C291CE8AF00287880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49B535A291CE8AF00287880 /* LaunchScreen.storyboard */; };
+		B49B53A7291CEBEF00287880 /* GitViewerNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49B53A6291CEBEF00287880 /* GitViewerNetwork.framework */; };
+		B49B53A8291CEBEF00287880 /* GitViewerNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B49B53A6291CEBEF00287880 /* GitViewerNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B49B53AB291CEBF500287880 /* Utility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49B53AA291CEBF500287880 /* Utility.framework */; };
+		B49B53AC291CEBF500287880 /* Utility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B49B53AA291CEBF500287880 /* Utility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B49B53B6291CF00D00287880 /* GitViewerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53B5291CF00D00287880 /* GitViewerDetailView.swift */; };
+		B49B53B8291CF06C00287880 /* GitViewerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53B7291CF06C00287880 /* GitViewerTableViewCell.swift */; };
+		B49B53BA291CF0EE00287880 /* GitViewerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53B9291CF0EE00287880 /* GitViewerHomeViewController.swift */; };
+		B49B53BC291CF10A00287880 /* GitViewerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53BB291CF10A00287880 /* GitViewerDetailsViewController.swift */; };
+		B49B53BE291CF12800287880 /* GitViewerFavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53BD291CF12800287880 /* GitViewerFavouritesViewController.swift */; };
+		B49B53C0291CF23900287880 /* GitViewerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53BF291CF23900287880 /* GitViewerViewModel.swift */; };
+		B49B53C2291CF2FD00287880 /* GitViewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53C1291CF2FD00287880 /* GitViewerModel.swift */; };
+		B49B53C4291CF31600287880 /* FollowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53C3291CF31600287880 /* FollowModel.swift */; };
+		B49B53C6291CF3AD00287880 /* GitViewerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53C5291CF3AD00287880 /* GitViewerResource.swift */; };
+		B49B53E4291CF9E600287880 /* APIModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49B53E3291CF9E600287880 /* APIModels.framework */; };
+		B49B53E5291CF9E600287880 /* APIModels.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B49B53E3291CF9E600287880 /* APIModels.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B49B53A9291CEBF000287880 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B49B53A8291CEBEF00287880 /* GitViewerNetwork.framework in Embed Frameworks */,
+				B49B53AC291CEBF500287880 /* Utility.framework in Embed Frameworks */,
+				B49B53E5291CF9E600287880 /* APIModels.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B49B534C291CE8AD00287880 /* GitViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49B534F291CE8AD00287880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B49B5351291CE8AD00287880 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B49B5353291CE8AD00287880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B49B5356291CE8AD00287880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B49B5358291CE8AF00287880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B49B535B291CE8AF00287880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B49B535D291CE8AF00287880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49B53A6291CEBEF00287880 /* GitViewerNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GitViewerNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49B53AA291CEBF500287880 /* Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49B53B5291CF00D00287880 /* GitViewerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewerDetailView.swift; sourceTree = "<group>"; };
+		B49B53B7291CF06C00287880 /* GitViewerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewerTableViewCell.swift; sourceTree = "<group>"; };
+		B49B53B9291CF0EE00287880 /* GitViewerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewerHomeViewController.swift; sourceTree = "<group>"; };
+		B49B53BB291CF10A00287880 /* GitViewerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewerDetailsViewController.swift; sourceTree = "<group>"; };
+		B49B53BD291CF12800287880 /* GitViewerFavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewerFavouritesViewController.swift; sourceTree = "<group>"; };
+		B49B53BF291CF23900287880 /* GitViewerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewerViewModel.swift; sourceTree = "<group>"; };
+		B49B53C1291CF2FD00287880 /* GitViewerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewerModel.swift; sourceTree = "<group>"; };
+		B49B53C3291CF31600287880 /* FollowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowModel.swift; sourceTree = "<group>"; };
+		B49B53C5291CF3AD00287880 /* GitViewerResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewerResource.swift; sourceTree = "<group>"; };
+		B49B53E3291CF9E600287880 /* APIModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = APIModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B49B53A7291CEBEF00287880 /* GitViewerNetwork.framework in Frameworks */,
+				B49B53AB291CEBF500287880 /* Utility.framework in Frameworks */,
+				B49B53E4291CF9E600287880 /* APIModels.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +84,7 @@
 			children = (
 				B49B534E291CE8AD00287880 /* GitViewer */,
 				B49B534D291CE8AD00287880 /* Products */,
+				B49B53A5291CEBEF00287880 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,96 @@
 		B49B534E291CE8AD00287880 /* GitViewer */ = {
 			isa = PBXGroup;
 			children = (
-				B49B534F291CE8AD00287880 /* AppDelegate.swift */,
-				B49B5351291CE8AD00287880 /* SceneDelegate.swift */,
-				B49B5353291CE8AD00287880 /* ViewController.swift */,
-				B49B5355291CE8AD00287880 /* Main.storyboard */,
-				B49B5358291CE8AF00287880 /* Assets.xcassets */,
-				B49B535A291CE8AF00287880 /* LaunchScreen.storyboard */,
+				B49B53AD291CEDC200287880 /* Application Delegate */,
+				B49B53B2291CEE7300287880 /* Api Resource */,
+				B49B53AE291CEDDC00287880 /* Home */,
+				B49B53B1291CEE6000287880 /* View Model */,
+				B49B53B4291CEF4300287880 /* Resources */,
 				B49B535D291CE8AF00287880 /* Info.plist */,
 			);
 			path = GitViewer;
+			sourceTree = "<group>";
+		};
+		B49B53A5291CEBEF00287880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B49B53E3291CF9E600287880 /* APIModels.framework */,
+				B49B53AA291CEBF500287880 /* Utility.framework */,
+				B49B53A6291CEBEF00287880 /* GitViewerNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B49B53AD291CEDC200287880 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B49B534F291CE8AD00287880 /* AppDelegate.swift */,
+				B49B5351291CE8AD00287880 /* SceneDelegate.swift */,
+			);
+			path = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		B49B53AE291CEDDC00287880 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B49B53B0291CEDF300287880 /* Views */,
+				B49B53AF291CEDE500287880 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B49B53AF291CEDE500287880 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B49B53B9291CF0EE00287880 /* GitViewerHomeViewController.swift */,
+				B49B53BB291CF10A00287880 /* GitViewerDetailsViewController.swift */,
+				B49B53BD291CF12800287880 /* GitViewerFavouritesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B49B53B0291CEDF300287880 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B49B53B5291CF00D00287880 /* GitViewerDetailView.swift */,
+				B49B53B7291CF06C00287880 /* GitViewerTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B49B53B1291CEE6000287880 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				B49B53BF291CF23900287880 /* GitViewerViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		B49B53B2291CEE7300287880 /* Api Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B49B53B3291CEE9000287880 /* Model */,
+				B49B53C5291CF3AD00287880 /* GitViewerResource.swift */,
+			);
+			path = "Api Resource";
+			sourceTree = "<group>";
+		};
+		B49B53B3291CEE9000287880 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B49B53C1291CF2FD00287880 /* GitViewerModel.swift */,
+				B49B53C3291CF31600287880 /* FollowModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B49B53B4291CEF4300287880 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B49B5358291CE8AF00287880 /* Assets.xcassets */,
+				B49B535A291CE8AF00287880 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +201,7 @@
 				B49B5348291CE8AD00287880 /* Sources */,
 				B49B5349291CE8AD00287880 /* Frameworks */,
 				B49B534A291CE8AD00287880 /* Resources */,
+				B49B53A9291CEBF000287880 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,7 +252,6 @@
 			files = (
 				B49B535C291CE8AF00287880 /* LaunchScreen.storyboard in Resources */,
 				B49B5359291CE8AF00287880 /* Assets.xcassets in Resources */,
-				B49B5357291CE8AD00287880 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +262,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B49B5354291CE8AD00287880 /* ViewController.swift in Sources */,
+				B49B53BA291CF0EE00287880 /* GitViewerHomeViewController.swift in Sources */,
+				B49B53B6291CF00D00287880 /* GitViewerDetailView.swift in Sources */,
+				B49B53B8291CF06C00287880 /* GitViewerTableViewCell.swift in Sources */,
 				B49B5350291CE8AD00287880 /* AppDelegate.swift in Sources */,
+				B49B53C4291CF31600287880 /* FollowModel.swift in Sources */,
+				B49B53BC291CF10A00287880 /* GitViewerDetailsViewController.swift in Sources */,
+				B49B53C0291CF23900287880 /* GitViewerViewModel.swift in Sources */,
+				B49B53C6291CF3AD00287880 /* GitViewerResource.swift in Sources */,
+				B49B53BE291CF12800287880 /* GitViewerFavouritesViewController.swift in Sources */,
 				B49B5352291CE8AD00287880 /* SceneDelegate.swift in Sources */,
+				B49B53C2291CF2FD00287880 /* GitViewerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B49B5355291CE8AD00287880 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B49B5356291CE8AD00287880 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B49B535A291CE8AF00287880 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,9 +416,10 @@
 				INFOPLIST_FILE = GitViewer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +445,10 @@
 				INFOPLIST_FILE = GitViewer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

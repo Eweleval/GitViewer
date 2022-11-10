@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:GitViewerNetwork/GitViewerNetwork.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Utility/Utility.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:APIModels/APIModels.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:GitViewer.xcodeproj">
+   </FileRef>
+</Workspace>

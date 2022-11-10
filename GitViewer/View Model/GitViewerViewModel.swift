@@ -49,7 +49,6 @@ class GitDataViewModel {
             switch result {
             case .success(let listOf):
                 self?.delegate?.receiveData(listOf)
-                print(listOf, "Happy")
                 self?.userDefaults.offlineUsers = listOf
             case .failure(let error):
                 self?.delegate?.receiveData(self?.userDefaults.offlineUsers)

@@ -13,10 +13,10 @@ import Utility
 class GitDetailViewController: UIViewController {
     lazy var detailsView = GitDetailView()
     var userDefault = UserDefaults.standard
-    var userDetails: APIModels.Item?
+    var userDetails: Item?
     var following: Int?
     var followers: Int?
-    var listOfLiked = [APIModels.Item]()
+    var listOfLiked = [Item]()
     
     override func viewDidLoad() {
         super.viewDidLoad()

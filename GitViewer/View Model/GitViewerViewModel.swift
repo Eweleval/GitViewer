@@ -11,9 +11,9 @@ import Utility
 import APIModels
 
 protocol GitDataDelegate: AnyObject {
-    func receiveData(_ data: APIModels.GitDataModel?)
-    func receiveFollowersData(_ data: [APIModels.FollowDataModel])
-    func receiveFollowingData(_ data: [APIModels.FollowDataModel])
+    func receiveData(_ data: GitDataModel?)
+    func receiveFollowersData(_ data: [FollowDataModel])
+    func receiveFollowingData(_ data: [FollowDataModel])
 }
 
 class GitDataViewModel {

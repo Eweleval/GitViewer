@@ -54,7 +54,7 @@ class GitTableViewCell: UITableViewCell {
         ])
     }
     
-    func recieveData(data: APIModels.Item) {
+    func recieveData(data: Item) {
         nameLabel.text = data.login.capitalized
         profileImage.downloadImage(from: data.avatarURL)
         profileImage.contentMode = .scaleAspectFill

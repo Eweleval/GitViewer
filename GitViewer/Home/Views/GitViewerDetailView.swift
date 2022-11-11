@@ -201,7 +201,7 @@ class GitDetailView: UIView {
     var profileUrl: String?
     var starredUrl: String?
 
-    func configureFields(_ data: APIModels.Item, following: Int, followers: Int) {
+    func configureFields(_ data: Item, following: Int, followers: Int) {
         profileImage.downloadImage(from: data.avatarURL)
         nameLabel.text = data.login
         linkProfileImage.downloadImage(from: data.avatarURL)

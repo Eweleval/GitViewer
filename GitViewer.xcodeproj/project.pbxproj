@@ -21,8 +21,6 @@
 		B49B53BC291CF10A00287880 /* GitViewerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53BB291CF10A00287880 /* GitViewerDetailsViewController.swift */; };
 		B49B53BE291CF12800287880 /* GitViewerFavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53BD291CF12800287880 /* GitViewerFavouritesViewController.swift */; };
 		B49B53C0291CF23900287880 /* GitViewerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53BF291CF23900287880 /* GitViewerViewModel.swift */; };
-		B49B53C2291CF2FD00287880 /* GitViewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53C1291CF2FD00287880 /* GitViewerModel.swift */; };
-		B49B53C4291CF31600287880 /* FollowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53C3291CF31600287880 /* FollowModel.swift */; };
 		B49B53C6291CF3AD00287880 /* GitViewerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49B53C5291CF3AD00287880 /* GitViewerResource.swift */; };
 		B49B53E4291CF9E600287880 /* APIModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49B53E3291CF9E600287880 /* APIModels.framework */; };
 		B49B53E5291CF9E600287880 /* APIModels.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B49B53E3291CF9E600287880 /* APIModels.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -59,8 +57,6 @@
 		B49B53BB291CF10A00287880 /* GitViewerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewerDetailsViewController.swift; sourceTree = "<group>"; };
 		B49B53BD291CF12800287880 /* GitViewerFavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewerFavouritesViewController.swift; sourceTree = "<group>"; };
 		B49B53BF291CF23900287880 /* GitViewerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewerViewModel.swift; sourceTree = "<group>"; };
-		B49B53C1291CF2FD00287880 /* GitViewerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewerModel.swift; sourceTree = "<group>"; };
-		B49B53C3291CF31600287880 /* FollowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowModel.swift; sourceTree = "<group>"; };
 		B49B53C5291CF3AD00287880 /* GitViewerResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewerResource.swift; sourceTree = "<group>"; };
 		B49B53E3291CF9E600287880 /* APIModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = APIModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -167,19 +163,9 @@
 		B49B53B2291CEE7300287880 /* Api Resource */ = {
 			isa = PBXGroup;
 			children = (
-				B49B53B3291CEE9000287880 /* Model */,
 				B49B53C5291CF3AD00287880 /* GitViewerResource.swift */,
 			);
 			path = "Api Resource";
-			sourceTree = "<group>";
-		};
-		B49B53B3291CEE9000287880 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B49B53C1291CF2FD00287880 /* GitViewerModel.swift */,
-				B49B53C3291CF31600287880 /* FollowModel.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		B49B53B4291CEF4300287880 /* Resources */ = {
@@ -266,13 +252,11 @@
 				B49B53B6291CF00D00287880 /* GitViewerDetailView.swift in Sources */,
 				B49B53B8291CF06C00287880 /* GitViewerTableViewCell.swift in Sources */,
 				B49B5350291CE8AD00287880 /* AppDelegate.swift in Sources */,
-				B49B53C4291CF31600287880 /* FollowModel.swift in Sources */,
 				B49B53BC291CF10A00287880 /* GitViewerDetailsViewController.swift in Sources */,
 				B49B53C0291CF23900287880 /* GitViewerViewModel.swift in Sources */,
 				B49B53C6291CF3AD00287880 /* GitViewerResource.swift in Sources */,
 				B49B53BE291CF12800287880 /* GitViewerFavouritesViewController.swift in Sources */,
 				B49B5352291CE8AD00287880 /* SceneDelegate.swift in Sources */,
-				B49B53C2291CF2FD00287880 /* GitViewerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

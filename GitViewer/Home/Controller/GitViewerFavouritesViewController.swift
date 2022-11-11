@@ -11,7 +11,7 @@ import Utility
 
 class FavouritesViewController: UIViewController {
     let userDefault = UserDefaults.standard
-    var favouriteList: [APIModels.Item]?
+    var favouriteList: [Item]?
     
     private lazy var favouriteTableView: UITableView = {
         let tableView = UITableView()

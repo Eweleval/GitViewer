@@ -13,14 +13,14 @@ import Utility
 class HomeViewController: UIViewController {
 
     var viewModel: GitDataViewModel?
-    var gitUsers: [APIModels.Item]?
-    var users = [APIModels.Item]()
+    var gitUsers: [Item]?
+    var users = [Item]()
     var sortedUsers: [String]?
-    var sections: [[APIModels.Item]]?
+    var sections: [[Item]]?
     let queue = DispatchQueue(label: Controller.monitor)
     var pageNumber = 1
     var totalCount = 0
-    var details: APIModels.Item?
+    var details: Item?
     var following: Int?
     var followers: Int?
     
@@ -83,7 +83,7 @@ class HomeViewController: UIViewController {
 }
 
 extension HomeViewController: GitDataDelegate{
-    func receiveData(_ data: APIModels.GitDataModel?) {
+    func receiveData(_ data: GitDataModel?) {
         if let data = data {
             totalCount = data.totalCount
             for user in data.items {
@@ -108,12 +108,12 @@ extension HomeViewController: GitDataDelegate{
         }
     }
     
-    func receiveFollowersData(_ data: [APIModels.FollowDataModel]) {
+    func receiveFollowersData(_ data: [FollowDataModel]) {
         followers = data.count
         configureDetailsVC()
     }
     
-    func receiveFollowingData(_ data: [APIModels.FollowDataModel]) {
+    func receiveFollowingData(_ data: [FollowDataModel]) {
         following = data.count
     }
     
